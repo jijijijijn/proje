@@ -1,0 +1,105 @@
+header{
+    width: 980px;
+    height: 70px;
+    margin: auto;
+    font-size: 12px;
+}
+
+header .gnb{
+    height: 70px;
+    border-bottom: 3px solid #e5e5e5;
+    position: relative;
+}
+
+/* gnb social */
+header .gnb ul.social{
+    float: left;
+    margin-top: 40px;
+    
+}
+
+header .gnb ul.social li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* gnb info */
+
+header .gnb ul.info {
+    float: right;
+    margin-top: 40px;
+}
+
+header .gnb ul.info li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* gnb submenu */
+header .gnb ul.gnbm{
+    position: absolute;
+    right: 25px;
+    top: 88px;
+}
+
+header .gnb ul.gnbm li{
+    display: inline-block;
+    margin-right: 20px;
+}
+header .gnb ul.gnbm span{
+    position: absolute;
+    top: -5px;
+}
+
+/*fixmenu*/
+
+header .fixmenu{
+    position: absolute;
+    width: 980px;
+    font-size: 17px;
+    top: 88px;
+}
+
+header .fixmenu ul.submenu{
+    text-align: center;
+}
+
+header .fixmenu ul.submenu li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+header .fixmenu ul.submenu li::before{
+    content:" ";
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    left: -20px;
+    background-color: #e5e5e5;
+    /* margin: auto; */
+}
+header .fixmenu ul.submenu li:first-child::before{
+    display: none;
+}
+
+/* logo*/
+header .logo>img{
+    height: 37px;
+    width: 219px;
+
+}
+
+header .logo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -109px;
+}
+
+
+
+
+
+
